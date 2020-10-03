@@ -15,19 +15,23 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" />
-        <h1>
-          Hey people{" "}
-          <span role="img" aria-label="wave emoji">
-            👋
-          </span>
-        </h1>
-        <p>Welcome to your new Gatsby website. You are on your home page.</p>
-        <p>
-          This starter comes out of the box with styled components and Gatsby's
-          default starter blog running on Netlify CMS.
-        </p>
-        <p>Now go build something great!</p>
+        <p>I have been contributing to entropy since 1993.</p>
+        <p>I'm an egalitarian.</p>
+        <p>I'm a global citizen.</p>
+        <p>I make machines learn.</p>
+        <p>I make apps.</p>
+        <p>I constructively critique on products.</p>
+        <p>I design.</p>
+        <p>I have a good deal of thought to share on philosophy. </p>
+        <p>I <Link to="/blog/">Blog</Link></p>
+        <p>I cofounded <a href={`https://verizy.ai/`}>Verizy</a>.</p>
+        <p>I cofounded <a href={`https://labyrinth.ai/`}>Labyrinth</a>.</p>
+        <p>I made <a href={`https://cacti.ai/`}>Cacti</a>. Check it out. Download the <a href={`https://apps.apple.com/app/id1503660093`}>Cacti Vault app</a>.</p>
+        <p>Check out <a href={`https://yourstory.com/2020/03/labyrinth-technologies-leverages-aws-handle-requests`}>Labyrinth's YourStory article</a>.</p>
+        <p>Watch my <a href={`https://www.youtube.com/watch?v=-hu9wyIUryg`}>interview with AWS</a>.</p>
+        <p>Check out the stories behind my work on Instagram here.</p>
+        <p>The welcome at <a href={`https://twitter.com/vishalvshekkar/status/1135438339169853441?s=20`}>WWDC2019</a>.</p>
+        <p><a href={`mailto:vishalvshekkar@gmail.com`}>Contact me</a>; let's grab a beverage together.</p>
         <Link to="/blog/">
           <Button marginTop="35px">Go to Blog</Button>
         </Link>
