@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import { ThemeToggler } from "gatsby-plugin-dark-mode"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -62,8 +63,21 @@ class Layout extends React.Component {
           <main>{children}</main>
         </div>
         <Footer>
-          © {new Date().getFullYear()}, Vishal V. Shekkar
+          <p>© {new Date().getFullYear()}, Vishal V. Shekkar</p>
+          <ThemeToggler>
+          {({ theme, toggleTheme }) => (
+            <label>
+              <input
+                type="checkbox"
+                onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}
+                checked={theme === "dark"}
+              />{" "}
+              Dark mode
+            </label>
+          )}
+        </ThemeToggler>
         </Footer>
+        
       </Wrapper>
     )
   }

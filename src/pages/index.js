@@ -15,6 +15,7 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
+        <blockquote>As a technologist who is passionate about creating products that invoke emotions, I have helped build over 18 products. I deeply involve myself in the architecture, planning, and development phases of products that employ both machine learning and platform development technologies. In my free time, I dabble in design and collect vinyl records.</blockquote>
         <p>I have been contributing to entropy since 1993.</p>
         <p>I'm an egalitarian.</p>
         <p>I'm a global citizen.</p>
