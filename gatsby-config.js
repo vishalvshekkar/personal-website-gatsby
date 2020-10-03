@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Gatsby Starter Personal Blog`,
-    author: `Gatsby`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Vishal V. Shekkar`,
+    author: `Vishal V. Shekkar`,
+    description: `I write about what I learn in technology and personal views on the happenings of the world.`,
+    siteUrl: `https://vishalvshekkar/`,
     social: {
-      twitter: `gatsbyjs`,
+      twitter: `vishalvshekkar`,
     },
   },
   plugins: [
@@ -60,6 +60,7 @@ module.exports = {
     },
     `gatsby-plugin-feed-mdx`,
     `gatsby-plugin-root-import`,
+    'gatsby-plugin-dark-mode',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
