@@ -4,7 +4,7 @@ module.exports = {
     title: `Vishal V. Shekkar`,
     author: `Vishal V. Shekkar`,
     description: `I write about what I learn in technology and personal views on the happenings of the world.`,
-    siteUrl: `https://vishalvshekkar/`,
+    siteUrl: `https://vishalvshekkar.com`,
     social: {
       twitter: `vishalvshekkar`,
     },
@@ -83,7 +83,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 720,
             },
           },
           {
@@ -122,7 +122,7 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         // edit below
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/vishal.png`,
       },
     },
     {

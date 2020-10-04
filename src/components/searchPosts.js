@@ -45,6 +45,7 @@ const SearchedPosts = ({ results }) =>
   results.length > 0 ? (
     results.map(node => {
       const date = node.date
+      const timeToRead = node.timeToReads
       const title = node.title || node.slug
       const description = node.description
       const excerpt = node.excerpt
@@ -61,7 +62,7 @@ const SearchedPosts = ({ results }) =>
               {title}
             </Link>
           </h3>
-          <small>{date}</small>
+          <small>{date} | About {node.timeToRead} min</small>
           <p
             dangerouslySetInnerHTML={{
               __html: description || excerpt,
@@ -91,7 +92,7 @@ const AllPosts = ({ posts }) => (
               {title}
             </Link>
           </h3>
-          <small>{node.frontmatter.date}</small>
+          <small>{node.frontmatter.date} | About {node.timeToRead} min</small>
           <p
             dangerouslySetInnerHTML={{
               __html: node.frontmatter.description || node.excerpt,

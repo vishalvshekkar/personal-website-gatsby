@@ -6,7 +6,7 @@
  */
 
 import React from "react"
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql, Link } from "gatsby"
 import Image from "gatsby-image"
 import styled from "styled-components"
 
@@ -21,7 +21,7 @@ function Bio() {
         return (
           <Container>
             <Image
-              fixed={data.avatar.childImageSharp.fixed}
+              // fixed={data.avatar.childImageSharp.fixed}
               alt={author}
               style={{
                 marginRight: rhythm(1 / 2),
@@ -34,12 +34,7 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong>, a framework built upon the
-              React library.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                Follow me on Twitter
-              </a>
+              Written by <Link to="/"><strong>{author}</strong></Link>
             </p>
           </Container>
         )
@@ -50,7 +45,7 @@ function Bio() {
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/gatsby-icon.png/" }) {
+    avatar: file(absolutePath: { regex: "vishal.png" }) {
       childImageSharp {
         fixed(width: 50, height: 50) {
           ...GatsbyImageSharpFixed

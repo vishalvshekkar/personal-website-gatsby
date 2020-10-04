@@ -2,6 +2,7 @@
 title: Home — The Details Matter
 date: "2020-10-03T22:12:03.284Z"
 description: "A small write up on the details I observed around home during the COVID lockdown."
+path: home-the-details-matter
 ---
 
 The biggest learning to come from being locked down at home, to me, was realizing how much the details mattered. Being at home all day every day meant that I repeatedly looked over and consumed the finer details of my home and how all that influenced my mood. I observed details like the textures of objects, the angles and tones of light, the dust collected on surfaces, and the wear and tear of things I used every day.

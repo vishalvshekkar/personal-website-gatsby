@@ -1,5 +1,5 @@
 body {
-    --bg: white;
+    --bg: rgb(219, 219, 219);
     --bgCode: #FAFBFC;
     --textNormal: #222;
     --textTitle: #222;
@@ -13,11 +13,19 @@ body {
   body.dark {
     -webkit-font-smoothing: antialiased;
   
-    --bg: #07031a;
-    --bgCode: #202020;
+    --bg: #03071e;
+    --bgCode: #03071e;
     --textNormal: rgba(255, 255, 255, 0.88);
     --textTitle: white;
     --textSubTitle: rgb(92, 92, 92);
     --textLink: #51adcf;
     --hr: hsla(0, 0%, 100%, 0.1);
+  }
+
+  blockquote {
+      border-left: 4px solid rgba(127, 127, 127, 0.35);
+  }
+
+  blockquote.dark {
+      border-left: 4px solid rgba(127, 127, 127, 0.35);
   }
